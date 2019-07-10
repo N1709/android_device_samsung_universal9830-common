@@ -88,6 +88,7 @@ vendor.hwc.exynos.vsync_mode=0
 ro.incremental.enable=true
 
 # Media
+debug.stagefright.c2inputsurface=-1
 media.c2.hal.selection=aidl
 
 # Power HAL
