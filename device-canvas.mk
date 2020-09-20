@@ -17,6 +17,10 @@
 # Inherit from common
 $(call inherit-product, device/samsung/universal9830-common/device-common.mk)
 
+# Keylayout
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/canvas/configs/idc/sec_e-pen.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/sec_e-pen.idc
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
