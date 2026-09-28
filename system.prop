@@ -1,6 +1,9 @@
 # Audio
 audio.offload.min.duration.secs=30
 
+# SurfaceFlinger
+debug.renderengine.blur_algorithm=kawase2_fix_aliasing
+
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 ro.sys.fw.dex2oat_thread_count=8
