@@ -121,13 +121,9 @@ PRODUCT_COPY_FILES += \
 # Graphics
 PRODUCT_PACKAGES += \
     android.hardware.composer.hwc3-service.slsi \
-    android.hardware.graphics.allocator@2.0-impl:64 \
-    android.hardware.graphics.allocator@2.0-service \
-    android.hardware.graphics.mapper@2.0-impl-2.1 \
-    gralloc.universal990 \
+    android.hardware.graphics.allocator@4.0-service \
+    android.hardware.graphics.mapper@4.0-impl \
     libion
-
-$(call soong_config_set_bool,libui,legacy_gralloc,true)
 
 # Health
 PRODUCT_PACKAGES += \
@@ -361,8 +357,7 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH) \
     hardware/samsung_slsi-linaro/exynos/cpboot_v3 \
     hardware/samsung_slsi-linaro/exynos/libaudio/audiohal_comv1 \
     hardware/samsung_slsi-linaro/exynos/libaudio/audiohal_comv1/proxy \
-    hardware/samsung_slsi-linaro/exynos/libaudio/sthal \
-    hardware/samsung_slsi-linaro/exynos/gralloc/gralloc3
+    hardware/samsung_slsi-linaro/exynos/libaudio/sthal
 
 # SoundTrigger
 PRODUCT_PACKAGES += \
