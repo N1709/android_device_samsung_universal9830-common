@@ -16,6 +16,24 @@
       "message": "```suggestion\n    $(LOCAL_PATH)/canvas/configs/idc/sec_e-pen.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/sec_e-pen.idc\n```",
       "revId": "b0942e3324eb8204a25adfb4dda8998ad755c139",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f73ae8b_424bc86e",
+        "filename": "device-canvas.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 36094
+      },
+      "writtenOn": "2026-11-14T19:03:23Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "1f21babc_e2b95ba7",
+      "revId": "b0942e3324eb8204a25adfb4dda8998ad755c139",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
